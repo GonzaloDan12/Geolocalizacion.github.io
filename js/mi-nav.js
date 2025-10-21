@@ -12,24 +12,12 @@ export class MiNav
       camera
      </span>
      camara
-    </a>
+    </a> 
     <a href="geolocalizacion.html">
      <span class="material-symbols-outlined">
       hub
      </span>
      GPS
-    </a>
-    <a href="imagen.html">
-     <span class="material-symbols-outlined">
-      image
-     </span>
-     Imagen
-    </a>
-    <a href="video.html">
-     <span class="material-symbols-outlined">
-      TV
-     </span>
-     video
     </a>
     <a href="ayuda.html">
      <span class="material-symbols-outlined">
