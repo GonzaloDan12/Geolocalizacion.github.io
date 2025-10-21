@@ -1,0 +1,80 @@
+.navTab {
+ display: flex;
+ justify-content: center;
+ height: var(--navTabHeight);
+ background-color: var(--Surface);
+ align-items: stretch;
+}
+
+.navTab span {
+ font-size: var(--iconSize);
+ height: var(--iconSize);
+ width: var(--iconSize);
+ color: var(--OnSurfaceVariant);
+}
+
+.navTab .active span {
+ color: var(--Primary);
+}
+
+.navTab a {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+ color: var(--OnSurfaceVariant);
+ font-family:
+  var(--TitleSmallFont);
+ font-size:
+  var(--TitleSmallSize);
+ font-weight:
+  var(--TitleSmallWeight);
+ line-height:
+  var(--TitleSmallSize);
+ box-sizing: border-box;
+ border-bottom: 3px solid var(--Surface);
+ min-width: var(--minTabWidth);
+ width: var(--tabWidth);
+}
+
+.navTab a:hover {
+ background-color:
+  var(--OnSurfaceHover);
+ color: var(--OnSurface);
+}
+
+.navTab a.active {
+ border-bottom-color: var(--Primary);
+}
+
+.navTab a.active:hover {
+ color: var(--Primary);
+ background-color:
+  var(--PrimaryHover);
+}
+
+.navTab a:hover span {
+ color: var(--OnSurface);
+}
+
+.navTab a.active:hover span {
+ color: var(--Primary);
+}
+
+.navTab a:focus {
+ outline: none;
+ background-color:
+  var(--PrimaryFocus);
+}
+
+.navTab a:active {
+ background-color:
+  var(--PrimaryPressed);
+ background-image: radial-gradient(circle, transparent 1%, var(--PrimaryHover) 1%);
+ background-position: center;
+ background-size: 100%;
+ animation-fill-mode: forwards;
+ animation-name: ripple;
+ animation-duration: 0.5s;
+}
