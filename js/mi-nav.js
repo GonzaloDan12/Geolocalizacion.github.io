@@ -31,7 +31,7 @@ export class MiNav
     const index = this.querySelector(
       "[href='index.html']")
       const Geolocalizacion = this.querySelector(
-      "[href='Geolocalizacion.html']")
+      "[href='geolocalizacion.html']")
     const ayuda = this.querySelector(
       "[href='ayuda.html']")
     if (ayuda != null &&
