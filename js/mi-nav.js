@@ -38,6 +38,10 @@ export class MiNav
       href.endsWith("ayuda.html")) {
       ayuda.classList.
         add(ACTIVE_CLASS)
+    } else if (Geolocalizacion != null &&
+      href.endsWith("geolocalizacion.html")) {
+      Geolocalizacion.classList.
+        add(ACTIVE_CLASS)
     } else if (index != null) {
       index.classList.
         add(ACTIVE_CLASS)
