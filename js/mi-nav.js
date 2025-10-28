@@ -30,6 +30,8 @@ export class MiNav
     const href = location.href
     const index = this.querySelector(
       "[href='index.html']")
+      const Geolocalizacion = this.querySelector(
+      "[href='Geolocalizacion.html']")
     const ayuda = this.querySelector(
       "[href='ayuda.html']")
     if (ayuda != null &&
